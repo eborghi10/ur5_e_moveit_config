@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: webots_manipulation
+    relative_path: urdf/ur5e_limited_gripper.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/ur5e_limited_gripper.srdf
+  CONFIG:
+    author_name: Emiliano Borghi
+    author_email: eborghi@ekumenlabs.com
+    generated_timestamp: 1595970696
